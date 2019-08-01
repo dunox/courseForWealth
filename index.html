@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="fonts/muller/muller.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="swiper/css/swiper.min.css">
+    <script src="slider.js"></script>
+    <script src="swiper/js/swiper.min.js"></script>
+    <script src="jquery.spincrement.js"></script>
+    <script src="custom.js"></script>
+    <script src="countdown.js"></script>
+</head>
+<body>
+    
+    <div id="mainCont">
+        <div class="firstBlock">
+            <img src="images/fibo__logo.png" alt="">
+            <h1>
+                КУРС НА БОГАТСТВО
+            </h1>
+            <div class="firstBlockVideo">
+                    <iframe width="645.5" height="364.4" src="https://www.youtube.com/embed/SGfTjzCtvr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="buttonGreen">
+                <a class="greenGradient" href="javascript:PopUpShowForm()">УСПЕТЬ ПРИОБРЕСТИ СО СКИДКОЙ!</a>
+            </div>
+        </div>
+        <div class="whatNeed">
+            <div class="whatNeedHead gradientLine">
+                <h2>ЧТО НУЖНО ДЛЯ ПРИУМНОЖЕНИЯ СБЕРЕЖЕНИЙ?</h2>
+                <p>Всего лишь владение нужной информацией и элементарные навыки</p>
+                <hr class="greenLine">
+            </div>
+            <div class="whatNeedSkills">
+                <div class="whatNeedSkills_knol">
+                    <img src="images/ico1.png" alt="">
+                    <p >ЗНАНИЯ</p>
+                    <span>Изучайте чужой опыт в инвестировании, <br> чтобы избежать самых популярных ошибок</span>
+                </div>
+                <div class="whatNeedSkills_skill">
+                    <img src="images/ico2.png" alt="">
+                    <p>НАВЫКИ</p>
+                    <span>Применяйте новые стратегии, чтобы <br> создать и увеличить свой доход</span>
+                </div>
+                <div class="whatNeedSkills_result">
+                    <img src="images/ico3.png" alt="">
+                    <p>РЕЗУЛЬТАТ</p>
+                    <span>Шанс за 2-3 месяца добиться <br> большего, чем за несколько лет</span>
+                </div>
+            </div>
+            <div id="popupForm" class="popForm">
+                <a class="overlay" href="javascript:PopUpHideForm()"></a>
+                <div class="popupForm_registration">
+                    <p>Заявка</p>
+                    <input class="input" name="name" type="text" placeholder="Ваше имя" >
+                    <input class="input" name="phone" type="text" placeholder="Ваш телефон">
+                    <a href="#" class="greenGradient buttonBuy__mod">КУПИТЬ МОДУЛЬ 1</a>
+                    <a href="javascript:PopUpHideForm()">&#xD7</a>
+                </div>
+            </div>
+            <div class="whatNeedBtn">
+                <a class="whatNeed_btn__cetfificate" href="javascript:PopUpShow()">СЕРТИФИКАТЫ</a>
+                <a class="greenGradient whatNeed_btn__master curator" href="#">КУРАТОР</a>
+            </div>
+            <div class="certificate_popup" id="popupCertificate">
+                    <a class="overlay" href="javascript:PopUpHide()"></a>
+                        <div class="certificate_pop">
+                            <div class="certificate_hidden">
+                                <div class="swiper-containerTwo">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                                <img  src="images/certificate.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                                <img  src="images/certificate.png" alt="">
+                                        </div>
+                                    </div>
+                                    <input type="button" class="prev swiper-button-prev swiper-button-black">
+                                    <input type="button" class="next swiper-button-next swiper-button-black">
+                                </div>
+                            </div>
+                            <a id="mytest1" href="javascript:PopUpHide()">&#xD7</a>
+                        </div>
+            </div>
+        </div>
+        <div class="masterOfLifeWrap">
+            <div class="masterOfLife">
+                <h2>СТАНЬТЕ ХОЗЯИНОМ ВАШЕЙ ЖИЗНИ!</h2>
+                <div class="masterOfLife__videoBlock">
+                    <div>
+                        <iframe width="522" height="331" src="https://www.youtube.com/embed/SGfTjzCtvr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <p>ТОЛЬКО ПРАВИЛЬНАЯ ИНФОРМАЦИЯ!</p>
+                        <ol>
+                            <li><span>1.</span> Управление личными финансами</li>
+                            <li><span>2.</span> Изучение финансового рынка</li>
+                            <li><span>3.</span> Окупаемость "инвестиций в себя" уже через 3-6 месяцев</li>
+                            <li><span>4.</span> Изучение профессионального ПО для инвестора</li>
+                            <li><span>5.</span> Постоянная поддержка Куратора на всех этапах обучения</li>
+                            <li><span>6.</span> Уроки он-лайн. Экономия времени и ресурсов</li>
+                        </ol>
+                        <div class="masterOfLife__videoBlock_btn">
+                                <a class="greenGradient"href="javascript:PopUpShowForm()">ПРИОБРЕСТИ СЕЙЧАС</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="moduleCourse">
+            <div class="moduleCourse__title gradientLine">
+                <h2>МОДУЛИ КУРСА</h2>
+                <p>Выберите подходящий именно вам</p>
+                <hr class="greenLine">
+            </div>
+            <div class="moduleItems">
+                <div class="moduleItem">
+                    <div class="moduleItemWhite moduleItemWhite_left">
+                        <img src="images/plane1.png" alt="">
+                        <p class="moduleItem__title">НАЧИНАЮЩИЙ</p>
+                        <p class="moduleItemDesc moduleItemDesc_left">Базовый курс по финансовой грамотности. Финансовое планирование и первые шаги в инвестировании.</p>
+                        <p class="moduleItems__cost">12 500<span>a</span></p>
+                    </div>
+                    <div class="moduleItemGray moduleItemGray_left">
+                        <p>Пройдя первый модуль Вы:</p>
+                        <ul>
+                            <li>Будете знать свою цель <br> и как дойти до нее.</li>
+                            <li>Увидите результат в виде денег.</li>
+                            <li>Заработаете на инвестициях <br> от  15% в год.</li>
+                        </ul>
+                        <a class="greenGradient"href="javascript:PopUpShowForm()">КУПИТЬ</a>
+                    </div>
+                </div>
+                <div class="moduleItem">
+                    <div class="moduleItemWhite moduleItemWhite_right">
+                        <img src="images/plane.png" alt="">
+                            <p class="moduleItem__title moduleItem__title__right">ИНВЕСТОР</p>
+                            <p class="moduleItemDesc moduleItemDesc_right">Все, что нужно знать инвестору:<br> "Теория и практика". Акции и облигации. Доверительное управление, ПИФы, ETF, прочие продукты финансового мира.</p>
+                            <p class="moduleItems__cost">25 000<span>a</span></p>
+                        </div>
+                    <div class="moduleItemGray moduleItemGray_right">
+                        <p>Пройдя первый модуль Вы:</p>
+                        <ul>
+                            <li>Научитесь принимать грамотные <br> инвестиционные решения.</li>
+                            <li>Будете зарабатывать в кризис, <br> когда большинство теряет <br> сбережения.</li>
+                            <li>Заработаете на инвестициях <br> от 30% в год.</li>
+                        </ul>
+                        <a class="greenGradient"href="javascript:PopUpShowForm()">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buyCounter">
+            <div class="buyCounterWrap">
+                <img class="man" src="images/man.png" alt="">
+                <h2>КУПИТЬ ПОЛНЫЙ КУРС ПО ИНВЕСТИРОВАНИЮ</h2>
+                <p>СО СКИДКОЙ 20%</p>
+                <div class="buyCounter__counter">
+                    <p id="CDT" class="buyCounter_timer"></p>
+                    <a class="buyCounter__counter_btn alternative" href="#alternative">АЛЬТЕРНАТИВА</a>
+                </div>
+                <a class="greenGradient buyCounter__counter_submitApp"href="javascript:PopUpShowForm()">ОСТАВИТЬ ЗАЯВКУ</a>
+            </div>
+        </div>
+        <div class="tryFree gradientLine">
+            <p class="tryFree__title"  id="alternative">Не уверены в своем решении? <br>
+                    Попробуйте наши <span>БЕСПЛАТНЫЕ БОНУСЫ!</span></p>
+                
+            <p class="tryFree__desc">Получите новые знания и навыки для повышения <br>
+                    финансовой грамотности <span>ПРЯМО СЕЙЧАС!<img src="images/arrowAltern.png" alt=""></span></p>
+                    <a class="tryFree__btn" href="#">АЛЬТЕРНАТИВА</a>
+                    <hr class="greenLine">
+        </div>
+        <div class="author">
+            <h2>АВТОР КУРСА</h2>
+            <div id="changing" class="authorsBlock swiper-container">
+                <div class="authorOne authorChange swiper-wrapper">
+                    <div class="showed swiper-slide">
+                            <img src="images/autorOne.png" alt="">
+                        <p class="authorName">Михаил Хлестунов</p>
+                        <p class="authorSkills">Профильное образование: Финансы и кредит. <br>
+                        Профильное образование: Бухгалтерский учет. <br>
+                        Дополнительное профильное образование: Оценочная деятельность и оценка бизнеса. <br>
+                        Сертификат ФСФР 1.0, Сертификат ФСФР 5.0</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/autorOne.png" alt="">
+                        <p class="authorName">Михаил Хлестунов</p>
+                        <p class="authorSkills">10 лет опыта в трейдинге<br>
+                        5 лет опыта работы в финансовых компаниях<br>
+                        5 лет опыта в инвестировании на фондовом рынке<br>
+                        4 года опыта преподавания и коучинга</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/autorOne.png" alt="">
+                        <p class="authorName">Михаил Хлестунов</p>
+                        <p class="authorSkills">Рынки:Bonds, Stocks, FORTS, ForEx<br>
+                    Брокеры: Cбербанк, Открытие, Альфа-Брокер, Alpari, Fibo Group.<br>
+                    Торговый метод: Классическое инвестирование, Позиционная торговля внутри недели/месяца, торговля внутри дня.</p>
+                    </div>
+                    <div class="showed swiper-slide">
+                            <img src="images/autorOne.png" alt="">
+                        <p class="authorName">Михаил Хлестунов</p>
+                        <p class="authorSkills">Профильное образование: Финансы и кредит. <br>
+                        Профильное образование: Бухгалтерский учет. <br>
+                        Дополнительное профильное образование: Оценочная деятельность и оценка бизнеса. <br>
+                        Сертификат ФСФР 1.0, Сертификат ФСФР 5.0</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/autorOne.png" alt="">
+                        <p class="authorName">Михаил Хлестунов</p>
+                        <p class="authorSkills">10 лет опыта в трейдинге<br>
+                        5 лет опыта работы в финансовых компаниях<br>
+                        5 лет опыта в инвестировании на фондовом рынке<br>
+                        4 года опыта преподавания и коучинга</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/autorOne.png" alt="">
+                        <p class="authorName">Михаил Хлестунов</p>
+                        <p class="authorSkills">Рынки:Bonds, Stocks, FORTS, ForEx<br>
+                    Брокеры: Cбербанк, Открытие, Альфа-Брокер, Alpari, Fibo Group.<br>
+                    Торговый метод: Классическое инвестирование, Позиционная торговля внутри недели/месяца, торговля внутри дня.</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <input type="button" class="prev  swiper-button-prev">
+                    <input type="button" class="next swiper-button-next">
+                </div>
+            </div>
+            
+            <div class="authorSoc">
+                <a href=""><span class="authorSoc__fb"></span></a>
+                <a href=""><span class="authorSoc__vk"></span></a>
+                <a href=""><span class="authorSoc__youT"></span></a>
+                <a href=""><span class="authorSoc__wAp"></span></a>
+            </div>
+            <div class="authorBlockNumbers">
+                <div>
+                    <p>БОЛЕЕ</p>
+                    <p id="fiveHun" class=" spincrement number">500</p>
+                    <p>ОНЛАЙН-МЕРОПРИЯТИЙ</p>
+                </div>
+                <div>
+                    <p>СВЫШЕ</p>
+                    <p id="threeHun" class="spincrement number">300</p>
+                    <p>ЭКСПЕРТНЫХ СТАТЕЙ<br>
+                        В НОВОСТНЫХ РЕСУРСАХ</p>
+                </div>
+                <div>
+                    <p>БОЛЕЕ</p>
+                    <p id="oneHun" class="spincrement number">100</p>
+                    <p>ОБУЧАЮЩИХ ВИДЕО</p>
+                </div>
+                <div>
+                    <p>ПРИГЛАШЕННЫЙ</p>
+                    <p class="number">Эксперт</p>
+                    <p>НА РБК ТВ</p>
+                </div>
+                <div>
+                    <p>БОЛЕЕ</p>
+                    <p id="oneHunTwo" class="spincrement number">100</p>
+                    <p>ПУБЛИЧНЫХ ВЫСТУПЛЕНИЙ<br>
+                            ПО ТЕМЕ ИНВЕСТИЦИЙ<br>
+                            И ФИНГРАМОТЕ</p>
+                </div>
+            </div>
+            <div class="anyQuestWrap">
+                <h2 class="author__AnyQuest">ОСТАЛИСЬ ВОПРОСЫ? ЗВОНИТЕ!</h2>
+                <p class="numberTel">+7(916)569-25-55</p>
+                <a href="#">hlestunov@gmail.com</a>
+            </div>
+        </div>
+        <div class="faq">
+            <h2>FAQ И ГАРАНТИИ</h2>
+            <div class="faqWrap">
+                <div class="quest__question">
+                    <div><span>1.</span>Чем этот видеокурс лучше других?<span class="checkImage"><!----></span></div>
+                    <p class="quest__answer">Если в течении 30 дней после начала обучения, Вы решите что курс вам не подходит, мы гарантируем Вам возврат денег, через службу поддержки.</p>
+                </div>
+                <div class="quest__question">
+                    <div><span>2.</span>Если я захочу отказаться от курса?<span class="checkImage"><!----></span></div>
+                    <p class="quest__answer">Если в течении 30 дней после начала обучения, Вы решите что курс вам не подходит, мы гарантируем Вам возврат денег, через службу поддержки.</p>
+                </div>
+                <div class="quest__question">
+                    <div><span>3.</span>Если я потеряю деньги?<span class="checkImage"><!----></span></div>
+                    <p class="quest__answer">Не бойтесь потерять деньги – мы предлагаем методику надежного инвестирования. Мы учим не вкладывать все деньги в одно направление, а диверсифицировать риски (вкладывать в разные направления). Даже если одна из Ваших инвестиций будет убыточной, доход от остальных покроет потери.</p>
+                </div>
+                <div class="quest__question">
+                    <div><span>4.</span>У меня сейчас нет денег<span class="checkImage"><!----></span></div>
+                    <p class="quest__answer">Если на данный момент вы испытываете финансовые неудобства, то вы просто можете забронировать комплект видеокурса для приобретения в дальнейшем. Вполне возможно, что скоро у вас появится возможность приобрести этот мощный видеотренинг. Бронирование заказа Вас ни к чему не обязывает.</p>
+                </div>
+                <div class="quest__question">
+                    <div><span>5.</span>Можно все изучить по книгам…<span class="checkImage"><!----></span></div>
+                    <p class="quest__answer">Да, какие-то знания об инвестировании получить можно. Но для того, чтобы заниматься инвестированием, нужно еще уложить все эти знания в единую работающую систему. Вы потратите массу времени, копаясь в литературе, и неизвестно, начнете ли инвестировать. Тогда как с помощью видеокурса Вы получите все необходимые знания в максимально сжатый срок, и сразу же закрепите их на практике.</p>
+                </div>
+                <div class="quest__question">
+                    <div><span>6.</span>Это слишком сложно для меня…<span class="checkImage"><!----></span></div>
+                    <p class="quest__answer">Уверяем Вас, вы поймете абсолютно все темы, которые будут разбираться на тренинге. Даже если Вы далеки от инвестирования и никогда этим не занимались, после тренинга Вы сможете начать эту деятельность не хуже опытных трейдеров</p>
+                </div>
+                <div class="quest__question">
+                    <div><span>7.</span>У меня мало времени<span class="checkImage"><!----></span></div>
+                    <p class="quest__answer">Формат видеокурса позволит вам изучать уроки в любое удобное для вас время, без причинения какого- либо ущерба повседневной жизни.</p>
+                </div>
+                <div class="quest__question">
+                    <div><span>8.</span>У меня нет денег для инвестирования…<span class="checkImage"><!----></span></div>
+                    <p class="quest__answer">Вам не нужен стартовый капитал в сотни тысяч рублей, как, например, для инвестиций в недвижимость. Вы сможете начать с малого – даже с 10 тысяч рублей!</p>
+                </div>
+                <div class="quest__question">
+                    <div><span>9.</span>Тренинг точно окупится?<span class="checkImage"><!----></span></div>
+                    <p class="quest__answer">На тренинге Вы поставите себе финансовую цель и начнете планомерно идти к ней. А когда есть четкая цель увеличить доход, то деньги начинают приходить даже из самых неожиданных источников! Потому мы уверены в обязательном увеличении вашего дохода.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerWrap">
+                <img src="images/fibo__logo.png" alt="">
+                <p>телефон, ссылки, адреса </p>
+                <a class="greenGradient" href="javascript:PopUpShowForm()">НАЧНИ ЗАРАБАТЫВАТЬ ПРЯМО СЕЙЧАС</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
